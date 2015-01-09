@@ -1,0 +1,28 @@
+{
+  "name": "Gerrit",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+	  "background.js"
+	],
+	"persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+	    "https://gerrit.wikimedia.org/*"
+	  ],
+	  "css": [
+	    "content.css"
+	  ],
+	  "js": [
+	    "jquery-1.11.2.min.js",
+		"content.js"
+      ]
+	}
+  ],
+  "web_accessible_resources": [
+    "menu.json"
+  ]
+}

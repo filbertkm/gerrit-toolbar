@@ -1,0 +1,48 @@
+ul#menu-list {
+  padding-left: 25px;
+  list-style-type: none;
+  float: left;
+}
+
+ul#menu-list li {
+  display: inline;
+}
+
+ul#menu-list a {
+  color: #ffffff !important;
+  padding: 0 1.2em 0 0;
+  text-decoration: none;
+}
+
+ul#menu-list a:hover {
+  color: #d8edf9 !important;
+}
+
+.topmenuMenuRight {
+  padding: 10px 25px;
+  margin-top: .5em 1em .5em 0;
+}
+
+.menuBarUserNamePanel {
+  color: #ffffff;
+}
+
+#gerrit-header {
+  width: 100%;
+  background: #212121;
+  font-weight: 600;
+  margin: 0;
+  background: #212121;
+}
+
+#gerrit_body {
+  padding-top: 10px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

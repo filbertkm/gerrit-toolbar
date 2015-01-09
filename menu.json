@@ -1,0 +1,52 @@
+{
+  "links": [
+    {
+      "text": "Open",
+      "url": "https://gerrit.wikimedia.org/r/#/q/status:open,n,z"
+    },
+    {
+      "text": "Merged",
+      "url": "https://gerrit.wikimedia.org/r/#/q/status:merged,n,z"
+    },
+    {
+      "text": "Abandoned",
+      "url": "https://gerrit.wikimedia.org/r/#/q/status:abandoned,n,z"
+    },
+    {
+      "text": "|",
+      "url": "#"
+    },
+    {
+      "text": "Patches",
+      "url": "https://gerrit.wikimedia.org/r/#/q/-is:draft+owner:self+status:open,n,z"
+    },
+    {
+      "text": "Drafts",
+      "url": "https://gerrit.wikimedia.org/r/#/q/is:draft+owner:self+status:open,n,z"
+    },
+    {
+      "text": "Reviews",
+      "url": "https://gerrit.wikimedia.org/r/#/q/reviewer:self+status:open,n,z"
+    },
+    {
+      "text": "Merged",
+      "url": "https://gerrit.wikimedia.org/r/#/q/owner:self+status:merged,n,z"
+    },
+    {
+      "text": "|",
+      "url": "#"
+    },
+    {
+      "text": "Projects",
+      "url": "https://gerrit.wikimedia.org/r/#/admin/projects/"
+    },
+    {
+      "text": "Groups",
+      "url": "https://gerrit.wikimedia.org/r/#/admin/groups/"
+    },
+    {
+      "text": "Documentation",
+      "url": "https://gerrit.wikimedia.org/r/Documentation/index.html"
+    }
+  ]
+}
