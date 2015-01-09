@@ -29,10 +29,9 @@ ul#menu-list a:hover {
 
 #gerrit-header {
   width: 100%;
-  background: #212121;
+  background: #2d3236;
   font-weight: 600;
   margin: 0;
-  background: #212121;
 }
 
 #gerrit_body {
