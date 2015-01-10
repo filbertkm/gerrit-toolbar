@@ -1,5 +1,5 @@
 ul#menu-list {
-  padding-left: 25px;
+  margin-left: 16px;
   list-style-type: none;
   float: left;
 }
@@ -8,14 +8,18 @@ ul#menu-list li {
   display: inline;
 }
 
-ul#menu-list a {
-  color: #ffffff !important;
-  padding: 0 1.2em 0 0;
+ul#menu-list a,
+.menuBarUserNamePanel {
+  color: #e5e5e5 !important;
   text-decoration: none;
 }
 
+ul#menu-list a {
+  padding: 0 1.2em 0 0;
+}
+
 ul#menu-list a:hover {
-  color: #d8edf9 !important;
+  color: #fff !important;
 }
 
 .topmenuMenuRight {
@@ -23,13 +27,8 @@ ul#menu-list a:hover {
   margin-top: .5em 1em .5em 0;
 }
 
-.menuBarUserNamePanel {
-  color: #ffffff;
-}
-
 #gerrit-header {
   width: 100%;
-  background: #2d3236;
   font-weight: 600;
   margin: 0;
 }

@@ -21,7 +21,11 @@ $( document ).ready( function() {
 	});
 
 	var header = $( "<div id='gerrit-header'>" )
-		.append( list );
+		.append( list )
+		.css({
+			'background': "url( '" + chrome.extension.getURL( 'logo.png' ) + "' ) no-repeat #2d3236",
+			'background-position': 'left 10px top 7px'
+		});
 
 	$( '#gerrit_topmenu' ).before(
 		$( header ).append( search ).addClass( 'clearfix' )

@@ -4,25 +4,26 @@
   "manifest_version": 2,
   "background": {
     "scripts": [
-	  "background.js"
-	],
-	"persistent": false
+      "background.js"
+    ],
+    "persistent": false
   },
   "content_scripts": [
     {
       "matches": [
-	    "https://gerrit.wikimedia.org/*"
-	  ],
-	  "css": [
-	    "content.css"
-	  ],
-	  "js": [
-	    "jquery-1.11.2.min.js",
-		"content.js"
+        "https://gerrit.wikimedia.org/*"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "js": [
+        "jquery-1.11.2.min.js",
+        "content.js"
       ]
-	}
+    }
   ],
   "web_accessible_resources": [
+    "logo.png",
     "menu.json"
   ]
 }
