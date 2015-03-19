@@ -29,6 +29,10 @@
       "url": "https://gerrit.wikimedia.org/r/#/q/reviewer:self+status:open,n,z"
     },
     {
+      "text": "Unreviewed",
+      "url": "https://gerrit.wikimedia.org/r/#/q/reviewer:self+-owner:self+status:open+-label:Code-Review%253D1+-label:Code-Review%253D-1+-label:Code-Review%253D-2,n,z"
+    },
+    {
       "text": "Merged",
       "url": "https://gerrit.wikimedia.org/r/#/q/owner:self+status:merged,n,z"
     },

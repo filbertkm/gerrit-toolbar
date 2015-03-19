@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "options_page": "options.html",
   "web_accessible_resources": [
     "logo.png",
     "menu.json"
