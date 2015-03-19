@@ -1,4 +1,4 @@
-$( document ).ready( function() {
+Gerrit.install(function (self) {
 	var search = $( '.topmenuMenuRight' ).first();
 		list = $( "<ul id='menu-list'>" );
 
