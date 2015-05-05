@@ -1,4 +1,6 @@
-$( document ).ready( function() {
+( function( $ ) {
+
+function init() {
 	var search = $( '.topmenuMenuRight' ).first();
 		list = $( "<ul id='menu-list'>" );
 
@@ -27,10 +29,21 @@ $( document ).ready( function() {
 			'background-position': 'left 10px top 7px'
 		});
 
+	$( '.gwt-TextBox' )
+		.first()
+		.attr({
+			'size': 50
+		});
+
 	$( '#gerrit_topmenu' ).before(
 		$( header ).append( search ).addClass( 'clearfix' )
 	);
 
 	$( '#gerrit_header' ).remove();
 	$( '#gerrit_topmenu' ).remove();
-});
+}
+
+
+init();
+
+} )( jQuery );
